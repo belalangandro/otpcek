@@ -1,9 +1,5 @@
-[[redirects]]
-  from = "/send-message"
-  to = "/.netlify/functions/send-message"
-  status = 200
+[build]
+  functions = "functions"
 
-[[redirects]]
-  from = "/qr-code"
-  to = "/.netlify/functions/qr-code"
-  status = 200
+[dev]
+  publish = "dist"
