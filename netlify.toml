@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/send-message"
+  to = "/.netlify/functions/send-message"
+  status = 200
+
+[[redirects]]
+  from = "/qr-code"
+  to = "/.netlify/functions/qr-code"
+  status = 200
